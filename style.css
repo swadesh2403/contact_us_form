@@ -8,7 +8,7 @@
 body
 {
     font-family: 'Outfit';
-    background: linear-gradient(#ffdad5,#fff7f9);
+    background: linear-gradient(#3d1635,#801357,#b8235a,#e7627d,#e2c9cc);
 
 }
 
@@ -76,7 +76,7 @@ body
 
 .contact-inputs::placeholder
 {
-    color: #fe0040;
+    color: #3d1635;
 }
 
 .contact-left button
@@ -89,6 +89,26 @@ body
     gap: 10px;
     border: none;
     border-radius: 25px;
-    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    background: linear-gradient(270deg,#b8235a,#3d1635);
     cursor: pointer;
+}
+
+.contact-left button img{
+    height: 15px;
+}
+
+
+.contact-right img{
+    width: 500px;
+
+}
+
+@media  (max-width: 800px) {
+    .contact-inputs {
+        width: 80vw;    
+    }
+    .contact-right{
+        display: none;
+    }
+    
 }
